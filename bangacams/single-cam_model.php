@@ -12,10 +12,13 @@ $img_url = get_post_meta( get_the_ID(), 'model_image_url', true );
 if ( has_post_thumbnail() ) {
 	$img_url = get_the_post_thumbnail_url( get_the_ID(), 'large' );
 }
+$platform = get_post_meta( get_the_ID(), 'model_platform', true );
 $aff_url = get_post_meta( get_the_ID(), 'model_affiliate_url', true );
+if ( empty($aff_url) && function_exists('bangacams_get_dynamic_aff_url') ) {
+	$aff_url = bangacams_get_dynamic_aff_url( get_the_title(), $platform );
+}
 $is_online = get_post_meta( get_the_ID(), 'model_is_online', true ) === 'yes';
 $viewers = get_post_meta( get_the_ID(), 'model_viewers', true );
-$platform = get_post_meta( get_the_ID(), 'model_platform', true );
 $age = get_post_meta( get_the_ID(), 'model_age', true );
 $country = get_post_meta( get_the_ID(), 'model_country', true );
 $languages = get_post_meta( get_the_ID(), 'model_languages', true );
