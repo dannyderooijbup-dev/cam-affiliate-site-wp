@@ -609,7 +609,6 @@ function bangacams_modify_archive_queries( $query ) {
 		}
 	}
 }
-}
 add_action( 'pre_get_posts', 'bangacams_modify_archive_queries' );
 
 /**
