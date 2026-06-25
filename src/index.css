@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-bordeaux-50: #fff1f2;
+  --color-bordeaux-100: #ffe4e6;
+  --color-bordeaux-200: #fecdd3;
+  --color-bordeaux-300: #fda4af;
+  --color-bordeaux-400: #fb7185;
+  --color-bordeaux-500: #f43f5e;
+  --color-bordeaux-600: #be123c;
+  --color-bordeaux-700: #9f1239;
+  --color-bordeaux-800: #881337;
+  --color-bordeaux-900: #6b071a; /* Prachtig diep bordeaux rood */
+  --color-bordeaux-950: #40010c; /* Zeer donker bordeaux */
+}
+
+@layer utilities {
+  .neon-glow-bordeaux {
+    text-shadow: 0 0 10px rgba(159, 18, 57, 0.6), 0 0 20px rgba(159, 18, 57, 0.4);
+  }
+  .neon-border-bordeaux {
+    box-shadow: 0 0 15px rgba(159, 18, 57, 0.3);
+  }
+}
+
+body {
+  background-color: #09090b; /* zinc-950 */
+  color: #f4f4f5; /* zinc-100 */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for premium aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+

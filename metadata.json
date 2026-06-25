@@ -1,0 +1,6 @@
+{
+  "name": "BangaCams",
+  "description": "Discover and compare top live cam models and platforms. Filter by category, view trending shows, and read SEO blog guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
