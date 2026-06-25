@@ -609,4 +609,419 @@ function bangacams_modify_archive_queries( $query ) {
 		}
 	}
 }
+}
 add_action( 'pre_get_posts', 'bangacams_modify_archive_queries' );
+
+/**
+ * 🔞 FORCE IMPORT STRIPCASH IF MISSING FROM DATABASE
+ */
+function bangacams_check_missing_platforms() {
+	if ( ! is_admin() ) {
+		return;
+	}
+
+	// List of default platforms to check
+	$platforms_to_check = array(
+		'Stripcash (Cam4 Network)' => array(
+			'desc'         => 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
+			'logo'         => 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
+			'rating'       => 4.8,
+			'aff_url'      => 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
+			'features'     => "Echt amateur webcam netwerk (Cam4)\nVolledige Lovense toy integratie\nWereldwijd bereik met miljoenen active leden\nSnel ladende live HD-streams",
+			'pros'         => "Enorm hoge model-diversiteit uit alle werelddelen\nZeer betrouwbaar en gevestigd merk\nVeel gratis openbare streams beschikbaar",
+			'cons'         => "Sommige streams hebben lagere resoluties door amateur-webcams\nChatrooms kunnen erg druk en levendig zijn",
+			'signup_bonus' => 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
+			'category'     => 'Amateur Cams'
+		)
+	);
+
+	foreach ( $platforms_to_check as $title => $plat ) {
+		// Try to query the post by title
+		$existing = get_page_by_title( $title, OBJECT, 'cam_platform' );
+		if ( ! $existing ) {
+			$post_id = wp_insert_post( array(
+				'post_title'   => $title,
+				'post_content' => $plat['desc'],
+				'post_status'  => 'publish',
+				'post_type'    => 'cam_platform'
+			) );
+			if ( $post_id && ! is_wp_error( $post_id ) ) {
+				update_post_meta( $post_id, 'platform_rating', $plat['rating'] );
+				update_post_meta( $post_id, 'platform_logo_url', $plat['logo'] );
+				update_post_meta( $post_id, 'platform_affiliate_url', $plat['aff_url'] );
+				update_post_meta( $post_id, 'platform_signup_bonus', $plat['signup_bonus'] );
+				update_post_meta( $post_id, 'platform_category', $plat['category'] );
+				update_post_meta( $post_id, 'platform_features', $plat['features'] );
+				update_post_meta( $post_id, 'platform_pros', $plat['pros'] );
+				update_post_meta( $post_id, 'platform_cons', $plat['cons'] );
+			}
+		}
+	}
+}
+add_action( 'admin_init', 'bangacams_check_missing_platforms' );
+
+/**
+ * 🔞 ADD BEAUTIFUL CUSTOM METABOXES FOR MODELS AND PLATFORMS
+ */
+function bangacams_add_custom_meta_boxes() {
+	// 1. Model Details Metabox
+	add_meta_box(
+		'bangacams_model_meta',
+		__( 'Model Details & Affiliate Links', 'bangacams' ),
+		'bangacams_render_model_meta_box',
+		'cam_model',
+		'normal',
+		'high'
+	);
+
+	// 2. Platform Details Metabox
+	add_meta_box(
+		'bangacams_platform_meta',
+		__( 'Platform Details & Reviews', 'bangacams' ),
+		'bangacams_render_platform_meta_box',
+		'cam_platform',
+		'normal',
+		'high'
+	);
+}
+add_action( 'add_meta_boxes', 'bangacams_add_custom_meta_boxes' );
+
+// Render Model Meta Box Input Fields
+function bangacams_render_model_meta_box( $post ) {
+	wp_nonce_field( 'bangacams_save_model_meta', 'bangacams_model_meta_nonce' );
+
+	$age           = get_post_meta( $post->ID, 'model_age', true );
+	$country       = get_post_meta( $post->ID, 'model_country', true );
+	$languages     = get_post_meta( $post->ID, 'model_languages', true );
+	$platform      = get_post_meta( $post->ID, 'model_platform', true );
+	$affiliate_url = get_post_meta( $post->ID, 'model_affiliate_url', true );
+	$rating        = get_post_meta( $post->ID, 'model_rating', true );
+	$is_online     = get_post_meta( $post->ID, 'model_is_online', true );
+	$viewers       = get_post_meta( $post->ID, 'model_viewers', true );
+	$popularity    = get_post_meta( $post->ID, 'model_popularity', true );
+	$image_url     = get_post_meta( $post->ID, 'model_image_url', true );
+
+	if ( empty( $rating ) ) $rating = '4.5';
+	if ( empty( $popularity ) ) $popularity = '5000';
+	if ( empty( $viewers ) ) $viewers = '0';
+	if ( empty( $is_online ) ) $is_online = 'no';
+
+	// Query all platforms registered in WP to make linking easy!
+	$platforms_posts = get_posts( array(
+		'post_type'      => 'cam_platform',
+		'posts_per_page' => -1,
+		'post_status'    => 'publish',
+	) );
+
+	$default_platforms = array( 'Chaturbate', 'Stripcash', 'LiveJasmin', 'JerkMate', 'CamSoda' );
+	?>
+	<style>
+		.bangacams-meta-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+			margin-top: 10px;
+		}
+		.bangacams-meta-field {
+			margin-bottom: 15px;
+		}
+		.bangacams-meta-field label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		.bangacams-meta-field input[type="text"],
+		.bangacams-meta-field input[type="number"],
+		.bangacams-meta-field input[type="url"],
+		.bangacams-meta-field select {
+			width: 100%;
+			padding: 8px;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+		}
+		.bangacams-meta-desc {
+			font-size: 11px;
+			color: #666;
+			margin-top: 3px;
+		}
+	</style>
+
+	<div class="bangacams-meta-grid">
+		<div class="bangacams-meta-column">
+			<!-- Platform selection -->
+			<div class="bangacams-meta-field">
+				<label for="model_platform"><?php _e( 'Gekoppeld Platform (Partner)', 'bangacams' ); ?></label>
+				<select id="model_platform" name="model_platform">
+					<option value=""><?php _e( '-- Selecteer Platform --', 'bangacams' ); ?></option>
+					<?php 
+					if ( ! empty( $platforms_posts ) ) :
+						foreach ( $platforms_posts as $p_post ) :
+							$p_title = $p_post->post_title;
+							// Clean up names if brackets exist to match frontend lookup
+							$clean_title = trim(str_replace( ' (Cam4 Network)', '', $p_title ));
+							?>
+							<option value="<?php echo esc_attr( $clean_title ); ?>" <?php selected( $platform, $clean_title ); ?>>
+								<?php echo esc_html( $p_title ); ?>
+							</option>
+						<?php 
+						endforeach;
+					else :
+						foreach ( $default_platforms as $def_plat ) :
+							?>
+							<option value="<?php echo esc_attr( $def_plat ); ?>" <?php selected( $platform, $def_plat ); ?>>
+								<?php echo esc_html( $def_plat ); ?>
+							</option>
+							<?php
+						endforeach;
+					endif;
+					?>
+				</select>
+				<p class="bangacams-meta-desc"><?php _e( 'Selecteer het platform waarop dit model streamt. Dit linkt dit model direct aan het juiste partnernetwerk op de website.', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- Affiliate URL -->
+			<div class="bangacams-meta-field">
+				<label for="model_affiliate_url"><?php _e( 'Model Affiliate / Partner Link', 'bangacams' ); ?></label>
+				<input type="url" id="model_affiliate_url" name="model_affiliate_url" value="<?php echo esc_url( $affiliate_url ); ?>" placeholder="https://..." />
+				<p class="bangacams-meta-desc"><?php _e( 'De specifieke affiliate/hoplink link naar de stream van dit model waarmee je commissie verdient.', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- External Image URL -->
+			<div class="bangacams-meta-field">
+				<label for="model_image_url"><?php _e( 'Aangepaste Model Afbeeldings URL', 'bangacams' ); ?></label>
+				<input type="text" id="model_image_url" name="model_image_url" value="<?php echo esc_url( $image_url ); ?>" placeholder="https://..." />
+				<p class="bangacams-meta-desc"><?php _e( 'Indien leeg, gebruikt de site de standaard WordPress Featured Image (Uitgelichte Afbeelding).', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- Rating -->
+			<div class="bangacams-meta-field">
+				<label for="model_rating"><?php _e( 'Beoordeling / Rating (0.0 - 5.0)', 'bangacams' ); ?></label>
+				<input type="text" id="model_rating" name="model_rating" value="<?php echo esc_attr( $rating ); ?>" placeholder="4.8" />
+			</div>
+
+			<!-- Is Online dropdown -->
+			<div class="bangacams-meta-field">
+				<label for="model_is_online"><?php _e( 'Is Online?', 'bangacams' ); ?></label>
+				<select id="model_is_online" name="model_is_online">
+					<option value="yes" <?php selected( $is_online, 'yes' ); ?>><?php _e( 'Ja, Nu Live', 'bangacams' ); ?></option>
+					<option value="no" <?php selected( $is_online, 'no' ); ?>><?php _e( 'Nee, Offline', 'bangacams' ); ?></option>
+				</select>
+			</div>
+		</div>
+
+		<div class="bangacams-meta-column">
+			<!-- Age -->
+			<div class="bangacams-meta-field">
+				<label for="model_age"><?php _e( 'Leeftijd (Age)', 'bangacams' ); ?></label>
+				<input type="number" id="model_age" name="model_age" value="<?php echo esc_attr( $age ); ?>" placeholder="21" />
+			</div>
+
+			<!-- Country -->
+			<div class="bangacams-meta-field">
+				<label for="model_country"><?php _e( 'Land van Herkomst (Country)', 'bangacams' ); ?></label>
+				<input type="text" id="model_country" name="model_country" value="<?php echo esc_attr( $country ); ?>" placeholder="Nederland" />
+			</div>
+
+			<!-- Languages -->
+			<div class="bangacams-meta-field">
+				<label for="model_languages"><?php _e( 'Gesproken Talen (Languages)', 'bangacams' ); ?></label>
+				<input type="text" id="model_languages" name="model_languages" value="<?php echo esc_attr( $languages ); ?>" placeholder="Nederlands, Engels" />
+				<p class="bangacams-meta-desc"><?php _e( 'Komma-gescheiden lijst met talen.', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- Viewers -->
+			<div class="bangacams-meta-field">
+				<label for="model_viewers"><?php _e( 'Aantal Actieve Kijkers', 'bangacams' ); ?></label>
+				<input type="number" id="model_viewers" name="model_viewers" value="<?php echo esc_attr( $viewers ); ?>" placeholder="1250" />
+			</div>
+
+			<!-- Popularity index -->
+			<div class="bangacams-meta-field">
+				<label for="model_popularity"><?php _e( 'Populariteits-index (Sorteer volgorde)', 'bangacams' ); ?></label>
+				<input type="number" id="model_popularity" name="model_popularity" value="<?php echo esc_attr( $popularity ); ?>" placeholder="9500" />
+				<p class="bangacams-meta-desc"><?php _e( 'Hogere getallen verschijnen bovenaan op de homepage.', 'bangacams' ); ?></p>
+			</div>
+		</div>
+	</div>
+	<?php
+}
+
+// Render Platform Meta Box Input Fields
+function bangacams_render_platform_meta_box( $post ) {
+	wp_nonce_field( 'bangacams_save_platform_meta', 'bangacams_platform_meta_nonce' );
+
+	$rating       = get_post_meta( $post->ID, 'platform_rating', true );
+	$logo_url     = get_post_meta( $post->ID, 'platform_logo_url', true );
+	$aff_url      = get_post_meta( $post->ID, 'platform_affiliate_url', true );
+	$signup_bonus = get_post_meta( $post->ID, 'platform_signup_bonus', true );
+	$category     = get_post_meta( $post->ID, 'platform_category', true );
+	$features     = get_post_meta( $post->ID, 'platform_features', true );
+	$pros         = get_post_meta( $post->ID, 'platform_pros', true );
+	$cons         = get_post_meta( $post->ID, 'platform_cons', true );
+
+	if ( empty( $rating ) ) $rating = '4.5';
+	?>
+	<style>
+		.bangacams-platform-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+			margin-top: 10px;
+		}
+		.bangacams-meta-field {
+			margin-bottom: 15px;
+		}
+		.bangacams-meta-field label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		.bangacams-meta-field input[type="text"],
+		.bangacams-meta-field input[type="url"],
+		.bangacams-meta-field textarea {
+			width: 100%;
+			padding: 8px;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+		}
+		.bangacams-meta-field textarea {
+			height: 100px;
+			font-family: monospace;
+			font-size: 12px;
+		}
+		.bangacams-meta-desc {
+			font-size: 11px;
+			color: #666;
+			margin-top: 3px;
+		}
+	</style>
+
+	<div class="bangacams-platform-grid">
+		<div class="bangacams-meta-column">
+			<!-- Platform Category -->
+			<div class="bangacams-meta-field">
+				<label for="platform_category"><?php _e( 'Platform Categorie', 'bangacams' ); ?></label>
+				<input type="text" id="platform_category" name="platform_category" value="<?php echo esc_attr( $category ); ?>" placeholder="Amateur Cams" />
+				<p class="bangacams-meta-desc"><?php _e( 'Bijv: Free Cams, Amateur Cams, Premium Shows.', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- Logo URL -->
+			<div class="bangacams-meta-field">
+				<label for="platform_logo_url"><?php _e( 'Logo Afbeeldings URL', 'bangacams' ); ?></label>
+				<input type="text" id="platform_logo_url" name="platform_logo_url" value="<?php echo esc_url( $logo_url ); ?>" placeholder="https://..." />
+			</div>
+
+			<!-- General Affiliate Link -->
+			<div class="bangacams-meta-field">
+				<label for="platform_affiliate_url"><?php _e( 'Algemene Platform Affiliate / Registratie Link', 'bangacams' ); ?></label>
+				<input type="url" id="platform_affiliate_url" name="platform_affiliate_url" value="<?php echo esc_url( $aff_url ); ?>" placeholder="https://..." />
+				<p class="bangacams-meta-desc"><?php _e( 'De hoofdlink voor de reviews en bezoek platform knoppen waarmee je commissie verdient.', 'bangacams' ); ?></p>
+			</div>
+
+			<!-- Signup Bonus -->
+			<div class="bangacams-meta-field">
+				<label for="platform_signup_bonus"><?php _e( 'Aanmeldingsbonus Tekst', 'bangacams' ); ?></label>
+				<input type="text" id="platform_signup_bonus" name="platform_signup_bonus" value="<?php echo esc_attr( $signup_bonus ); ?>" placeholder="Krijg direct 3 gratis credits!" />
+			</div>
+
+			<!-- Rating -->
+			<div class="bangacams-meta-field">
+				<label for="platform_rating"><?php _e( 'Beoordeling / Rating (0.0 - 5.0)', 'bangacams' ); ?></label>
+				<input type="text" id="platform_rating" name="platform_rating" value="<?php echo esc_attr( $rating ); ?>" placeholder="4.9" />
+			</div>
+		</div>
+
+		<div class="bangacams-meta-column">
+			<!-- Features list -->
+			<div class="bangacams-meta-field">
+				<label for="platform_features"><?php _e( 'Kenmerken / Features (Eén per regel)', 'bangacams' ); ?></label>
+				<textarea id="platform_features" name="platform_features" placeholder="Uitzonderlijke kwaliteit&#10;Grote community"><?php echo esc_textarea( $features ); ?></textarea>
+			</div>
+
+			<!-- Pros list -->
+			<div class="bangacams-meta-field">
+				<label for="platform_pros"><?php _e( 'Pluspunten (Pros) (Eén per regel)', 'bangacams' ); ?></label>
+				<textarea id="platform_pros" name="platform_pros" placeholder="Grootste aanbod aan gratis cams&#10;24/7 online shows"><?php echo esc_textarea( $pros ); ?></textarea>
+			</div>
+
+			<!-- Cons list -->
+			<div class="bangacams-meta-field">
+				<label for="platform_cons"><?php _e( 'Minpunten (Cons) (Eén per regel)', 'bangacams' ); ?></label>
+				<textarea id="platform_cons" name="platform_cons" placeholder="Hoge token prijzen&#10;Veel drukte"><?php echo esc_textarea( $cons ); ?></textarea>
+			</div>
+		</div>
+	</div>
+	<?php
+}
+
+// Save Model Meta Box Data on post update
+function bangacams_save_model_meta_data( $post_id ) {
+	if ( ! isset( $_POST['bangacams_model_meta_nonce'] ) || ! wp_verify_nonce( $_POST['bangacams_model_meta_nonce'], 'bangacams_save_model_meta' ) ) {
+		return;
+	}
+
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+
+	if ( ! current_user_can( 'edit_post', $post_id ) ) {
+		return;
+	}
+
+	$keys_to_save = array(
+		'model_age'           => 'sanitize_text_field',
+		'model_country'       => 'sanitize_text_field',
+		'model_languages'     => 'sanitize_text_field',
+		'model_platform'      => 'sanitize_text_field',
+		'model_affiliate_url' => 'esc_url_raw',
+		'model_rating'        => 'sanitize_text_field',
+		'model_is_online'     => 'sanitize_text_field',
+		'model_viewers'       => 'sanitize_text_field',
+		'model_popularity'    => 'sanitize_text_field',
+		'model_image_url'     => 'esc_url_raw',
+	);
+
+	foreach ( $keys_to_save as $key => $sanitize_func ) {
+		if ( isset( $_POST[ $key ] ) ) {
+			$value = call_user_func( $sanitize_func, $_POST[ $key ] );
+			update_post_meta( $post_id, $key, $value );
+		}
+	}
+}
+add_action( 'save_post_cam_model', 'bangacams_save_model_meta_data' );
+
+// Save Platform Meta Box Data on post update
+function bangacams_save_platform_meta_data( $post_id ) {
+	if ( ! isset( $_POST['bangacams_platform_meta_nonce'] ) || ! wp_verify_nonce( $_POST['bangacams_platform_meta_nonce'], 'bangacams_save_platform_meta' ) ) {
+		return;
+	}
+
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+
+	if ( ! current_user_can( 'edit_post', $post_id ) ) {
+		return;
+	}
+
+	$keys_to_save = array(
+		'platform_rating'          => 'sanitize_text_field',
+		'platform_logo_url'        => 'esc_url_raw',
+		'platform_affiliate_url'   => 'esc_url_raw',
+		'platform_signup_bonus'    => 'sanitize_text_field',
+		'platform_category'        => 'sanitize_text_field',
+		'platform_features'        => 'sanitize_textarea_field',
+		'platform_pros'            => 'sanitize_textarea_field',
+		'platform_cons'            => 'sanitize_textarea_field',
+	);
+
+	foreach ( $keys_to_save as $key => $sanitize_func ) {
+		if ( isset( $_POST[ $key ] ) ) {
+			$value = call_user_func( $sanitize_func, $_POST[ $key ] );
+			update_post_meta( $post_id, $key, $value );
+		}
+	}
+}
+add_action( 'save_post_cam_platform', 'bangacams_save_platform_meta_data' );
