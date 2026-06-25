@@ -182,6 +182,25 @@ get_header(); ?>
 ];
 
 export default function App() {
+  const [isAgeVerified, setIsAgeVerified] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem('age-verified') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
+  const handleVerifyAge = () => {
+    try {
+      localStorage.setItem('age-verified', 'true');
+    } catch (e) {}
+    setIsAgeVerified(true);
+  };
+
+  const handleDeclineAge = () => {
+    window.location.href = 'https://www.google.com';
+  };
+
   const [dashboardTab, setDashboardTab] = useState<'preview' | 'installer'>('preview');
   const [activeTab, setActiveTab] = useState<string>('home'); // 'home' | 'categories' | 'platforms' | 'blog'
   const [selectedModel, setSelectedModel] = useState<CamModel | null>(null);
@@ -260,6 +279,49 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100">
+      
+      {/* 🔞 Age Verification Gate Modal Overlay */}
+      {!isAgeVerified && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-zinc-950 p-4 sm:p-6 md:p-10 overflow-y-auto">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-bordeaux-950/50 via-zinc-950 to-zinc-950 opacity-95"></div>
+          
+          <div className="relative w-full max-w-md rounded-3xl border border-zinc-900 bg-zinc-900/60 p-8 text-center shadow-2xl shadow-black/80 backdrop-blur-md">
+            
+            {/* Warning Sign */}
+            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-tr from-bordeaux-800 to-bordeaux-600 text-white font-black text-xl shadow-lg shadow-bordeaux-950/50 border border-bordeaux-500/20">
+              18+
+            </div>
+
+            <h2 className="font-display text-2xl font-black tracking-tight text-white sm:text-3xl">
+              Leeftijdsverificatie
+            </h2>
+            
+            <p className="mt-4 text-xs text-zinc-400 font-light leading-relaxed">
+              BangaCams bevat expliciete en seksuele inhoud van webcam modellen en platformen. Je moet minimaal <strong className="text-zinc-200">18 jaar of ouder</strong> zijn om deze website te bezoeken.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-3">
+              <button
+                onClick={handleVerifyAge}
+                className="w-full rounded-xl bg-gradient-to-r from-bordeaux-800 to-bordeaux-600 hover:from-bordeaux-700 hover:to-bordeaux-550 py-4 text-center text-sm font-extrabold text-white shadow-lg shadow-bordeaux-950/50 transition-all hover:scale-[1.01] cursor-pointer"
+              >
+                Ja, ik ben 18+ (Toegang)
+              </button>
+              <button
+                onClick={handleDeclineAge}
+                className="w-full rounded-xl border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 py-4 text-center text-sm font-bold text-zinc-500 hover:text-zinc-300 transition-colors cursor-pointer"
+              >
+                Nee, ik ben minderjarig
+              </button>
+            </div>
+
+            <p className="mt-6 text-[10px] text-zinc-600 font-light leading-relaxed">
+              Door op "Ja" te klikken, ga je akkoord met onze algemene voorwaarden, ons cookiebeleid en verklaar je op erewoord dat je meerjarig bent.
+            </p>
+
+          </div>
+        </div>
+      )}
       
       {/* 🚀 WordPress Theme Developer Dashboard Panel */}
       <div className="bg-zinc-950 border-b border-zinc-900 sticky top-0 z-50 shadow-xl shadow-black/40">

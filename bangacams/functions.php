@@ -281,6 +281,18 @@ function bangacams_import_demo_content() {
 			'cons'         => "VR-bril vereist voor VR-optie\nSoms overweldigend qua interface",
 			'signup_bonus' => 'Ontvang direct 20 gratis tokens bij e-mailverificatie!',
 			'category'     => 'Amateur Cams'
+		),
+		array(
+			'title'        => 'Stripcash (Cam4 Network)',
+			'desc'         => 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
+			'logo'         => 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
+			'rating'       => 4.8,
+			'aff_url'      => 'https://external.directlink.com/aff/stripcash?subid=bangacams',
+			'features'     => "Echt amateur webcam netwerk (Cam4)\nVolledige Lovense toy integratie\nWereldwijd bereik met miljoenen actieve leden\nSnel ladende live HD-streams",
+			'pros'         => "Enorm hoge model-diversiteit uit alle werelddelen\nZeer betrouwbaar en gevestigd merk\nVeel gratis openbare streams beschikbaar",
+			'cons'         => "Sommige streams hebben lagere resoluties door amateur-webcams\nChatrooms kunnen erg druk en levendig zijn",
+			'signup_bonus' => 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
+			'category'     => 'Amateur Cams'
 		)
 	);
 

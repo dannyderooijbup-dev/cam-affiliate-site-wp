@@ -32,7 +32,7 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
     name: 'Chaturbate',
     logo: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80&w=150&h=150',
     rating: 4.7,
-    affiliate_url: 'https://external.directlink.com/aff/chaturbate?subid=aistudio',
+    affiliate_url: 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
     description: 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
     features: ['Duizenden gratis streams', 'Interactieve Lovense toys integratie', 'Actieve chat community', 'Enorme variatie in genres'],
     pros: ['Vrijwel alles is gratis te bekijken', 'Enorme amateur community', 'Zeer interactief met tip-goals'],
@@ -51,6 +51,19 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
     pros: ['Technologisch vooruitstrevend', 'Geweldige mobiele app-ervaring', 'Leuke gamification elementen'],
     cons: ['VR-bril vereist voor VR-optie', 'Soms overweldigend qua interface'],
     signupBonus: 'Ontvang direct 20 gratis tokens bij e-mailverificatie!',
+    category: 'Amateur Cams'
+  },
+  {
+    id: 'stripcash',
+    name: 'Stripcash (Cam4 Network)',
+    logo: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
+    rating: 4.8,
+    affiliate_url: 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
+    description: 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
+    features: ['Echt amateur webcam netwerk (Cam4)', 'Volledige Lovense toy integratie', 'Wereldwijd bereik met miljoenen actieve leden', 'Snel ladende live HD-streams'],
+    pros: ['Enorm hoge model-diversiteit uit alle werelddelen', 'Zeer betrouwbaar en gevestigd merk', 'Veel gratis openbare streams beschikbaar'],
+    cons: ['Sommige streams hebben lagere resoluties door amateur-webcams', 'Chatrooms kunnen erg druk en levendig zijn'],
+    signupBonus: 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
     category: 'Amateur Cams'
   }
 ];

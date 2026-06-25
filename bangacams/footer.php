@@ -46,6 +46,39 @@
 		</div>
 	</footer>
 
+	<!-- 🔞 18+ Age Verification Modal -->
+	<div id="wp-age-gate" class="fixed inset-0 z-[9999] flex items-center justify-center bg-zinc-950 p-4 sm:p-6 md:p-10 overflow-y-auto hidden">
+		<div class="absolute inset-0 bg-zinc-950/95"></div>
+		
+		<div class="relative w-full max-w-md rounded-3xl border border-zinc-900 bg-zinc-900/60 p-8 text-center shadow-2xl shadow-black/80 backdrop-blur-md">
+			<!-- Warning Sign -->
+			<div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-tr from-bordeaux-800 to-bordeaux-600 text-white font-black text-xl shadow-lg shadow-bordeaux-950/50 border border-bordeaux-500/20">
+				18+
+			</div>
+
+			<h2 class="font-display text-2xl font-black tracking-tight text-white sm:text-3xl">
+				Leeftijdsverificatie
+			</h2>
+			
+			<p class="mt-4 text-xs text-zinc-400 font-light leading-relaxed">
+				BangaCams bevat expliciete en seksuele inhoud van webcam modellen en platformen. Je moet minimaal <strong class="text-zinc-200">18 jaar of ouder</strong> zijn om deze website te bezoeken.
+			</p>
+
+			<div class="mt-8 flex flex-col gap-3">
+				<button id="wp-age-accept" class="w-full rounded-xl bg-gradient-to-r from-bordeaux-800 to-bordeaux-600 hover:from-bordeaux-700 hover:to-bordeaux-550 py-4 text-center text-sm font-extrabold text-white shadow-lg shadow-bordeaux-950/50 transition-all hover:scale-[1.01] cursor-pointer">
+					Ja, ik ben 18+ (Toegang)
+				</button>
+				<button id="wp-age-decline" class="w-full rounded-xl border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 py-4 text-center text-sm font-bold text-zinc-500 hover:text-zinc-300 transition-colors cursor-pointer">
+					Nee, ik ben minderjarig
+				</button>
+			</div>
+
+			<p class="mt-6 text-[10px] text-zinc-600 font-light leading-relaxed">
+				Door op "Ja" te klikken, ga je akkoord met onze algemene voorwaarden, ons cookiebeleid en verklaar je op erewoord dat je meerjarig bent.
+			</p>
+		</div>
+	</div>
+
 	<?php wp_footer(); ?>
 
 	<!-- Mobile Navigation, Interactive Filters and Lucide Initiation Scripts -->
@@ -71,6 +104,29 @@
 			if (mobileSearchToggle && mobileSearchBar) {
 				mobileSearchToggle.addEventListener('click', function() {
 					mobileSearchBar.classList.toggle('hidden');
+				});
+			}
+
+			// 4. Age Gate verification controller
+			const ageGate = document.getElementById('wp-age-gate');
+			const ageAccept = document.getElementById('wp-age-accept');
+			const ageDecline = document.getElementById('wp-age-decline');
+
+			if (ageGate && ageAccept && ageDecline) {
+				const isVerified = localStorage.getItem('wp-age-verified') === 'true';
+				if (!isVerified) {
+					ageGate.classList.remove('hidden');
+					document.body.classList.add('overflow-hidden');
+				}
+
+				ageAccept.addEventListener('click', function() {
+					localStorage.setItem('wp-age-verified', 'true');
+					ageGate.classList.add('hidden');
+					document.body.classList.remove('overflow-hidden');
+				});
+
+				ageDecline.addEventListener('click', function() {
+					window.location.href = 'https://www.google.com';
 				});
 			}
 		});
