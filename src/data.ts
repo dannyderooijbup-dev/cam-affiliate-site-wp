@@ -65,6 +65,19 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
     cons: ['Sommige streams hebben lagere resoluties door amateur-webcams', 'Chatrooms kunnen erg druk en levendig zijn'],
     signupBonus: 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
     category: 'Amateur Cams'
+  },
+  {
+    id: 'stripchat',
+    name: 'Stripchat',
+    logo: 'https://images.unsplash.com/photo-1598128558393-70ff21433be0?auto=format&fit=crop&q=80&w=150&h=150',
+    rating: 4.9,
+    affiliate_url: 'https://go.stripcash.com/link?userId=dannyderooij',
+    description: 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
+    features: ['Lovense Toy interactie op topniveau', 'Prachtige 4K en HD streams', 'Virtual Reality (VR) camshows', 'Gigantisch aantal live amateur en top performers'],
+    pros: ['Uiterst moderne en snelle videospeler', 'Enorm hoge model-diversiteit uit alle werelddelen', 'Veilig en anoniem registreren'],
+    cons: ['VIP-kamers vereisen tokens', 'De chatrooms kunnen erg druk en levendig zijn'],
+    signupBonus: 'Ontvang direct gratis tokens na registratie via onze partnerlink!',
+    category: 'Amateur Cams'
   }
 ];
 
@@ -272,6 +285,57 @@ export const MOCK_MODELS: CamModel[] = [
     age: 23,
     country: 'Nederland',
     languages: ['Nederlands', 'Engels']
+  },
+  {
+    id: 'm13',
+    name: 'Sexy Amira',
+    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=600&h=800',
+    category: 'Amateur',
+    rating: 4.9,
+    affiliate_url: 'https://go.stripcash.com/link?userId=dannyderooij&room=sexy_amira',
+    description: 'Sexy Amira is een fantastisch 20-jarig model op Stripchat die houdt van sensuele, interactieve shows. Ze is spontaan, praatgraag en dol op haar Lovense toy doelen.',
+    popularity: 11200,
+    tags: ['Amateur', 'Lovense', 'Dutch', 'Sensual', 'HD'],
+    isOnline: true,
+    viewers: 5400,
+    platform: 'Stripchat',
+    age: 20,
+    country: 'Nederland',
+    languages: ['Nederlands', 'Engels']
+  },
+  {
+    id: 'm14',
+    name: 'Dutch Sweetheart',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600&h=800',
+    category: 'Live Girls',
+    rating: 4.8,
+    affiliate_url: 'https://go.stripcash.com/link?userId=dannyderooij&room=dutch_sweetheart',
+    description: 'Dutch Sweetheart brengt een heerlijke nuchtere Nederlandse sfeer rechtstreeks in haar live webcam-ruimte. Altijd in voor een leuk gesprek en adembenemende shows.',
+    popularity: 9400,
+    tags: ['Blonde', 'Cute', 'Solo', 'Chatty', 'Interactive'],
+    isOnline: true,
+    viewers: 4100,
+    platform: 'Stripchat',
+    age: 22,
+    country: 'Nederland',
+    languages: ['Nederlands']
+  },
+  {
+    id: 'm15',
+    name: 'Wild Couple NL',
+    image: 'https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&q=80&w=600&h=800',
+    category: 'Couples',
+    rating: 4.8,
+    affiliate_url: 'https://go.stripcash.com/link?userId=dannyderooij&room=wild_couple_nl',
+    description: 'Dit avontuurlijke en passievolle Nederlandse stel deelt hun meest intieme momenten live op Stripchat. Hun shows zijn dynamisch, puur en 100% ongescript.',
+    popularity: 13500,
+    tags: ['Real Couple', 'Massage', 'Hardcore', 'Toys', 'HD'],
+    isOnline: true,
+    viewers: 6200,
+    platform: 'Stripchat',
+    age: 24,
+    country: 'België',
+    languages: ['Nederlands', 'Frans']
   }
 ];
 
