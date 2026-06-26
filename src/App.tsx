@@ -52,7 +52,7 @@ Theme URI: https://bangacams.com/
 Author: BangaCams Team
 Author URI: https://bangacams.com/team
 Description: A modern, responsive, high-performance affiliate platform for webcam directory and live cam platform reviews. Standard Dark Mode, Netflix-style layout, SEO optimized, fully compatible with WordPress 6+ and Gutenberg editor.
-Version: 1.0.0
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bangacams

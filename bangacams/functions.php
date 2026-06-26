@@ -197,15 +197,15 @@ function bangacams_import_demo_content() {
 			'content' => "Het landschap van live webcam entertainment is in 2026 innovatiever en populairder dan ooit. Met de opkomst van interactieve toys, Ultra-HD 4K streaming en geavanceerde matching-algoritmen is er een platform voor werkelijk elke voorkeur.\n\nMaar welk platform sluit het beste aan bij jouw wensen en budget? In deze gids vergelijken we de absolute top-sites van dit jaar op basis van cruciale factoren zoals modelkwaliteit, videotechnologie, betrouwbaarheid en prijs.\n\n### 1. JerkMate: Het Beste voor Gepersonaliseerde Matches\nJerkMate heeft de markt veroverd met een unieke 'matching wizard'. In plaats van eindeloos scrollen door duizenden kamers, geef je vooraf je voorkeuren aan. Het platform koppelt je vervolgens direct aan modellen die perfect bij jouw smaak passen.\n\n* **Voordelen:** Razendsnelle matching, fantastische mobiele ervaring, zeer actieve community.\n* **Ideaal voor:** Gebruikers die direct actie willen zonder urenlang te zoeken.\n\n### 2. LiveJasmin: Ongekende Luxe en VIP Kwaliteit\nVoor wie op zoek is naar premium entertainment en absolute topmodellen, is LiveJasmin de gouden standaard. De nadruk ligt hier op discretie en extreem hoge videokwaliteit (vaak in 4K). De modellen zijn uiterst professioneel.\n\n* **Voordelen:** Kristalhelder beeld en geluid, de meest discrete betaalmethoden, luxueuze uitstraling.\n* **Ideaal voor:** Liefhebbers van exclusieve VIP privé-shows en top-tier verleiding.\n\n### 3. Chaturbate: De Koning van de Amateur Cams\nWil je liever een informele, interactieve en grotendeels gratis ervaring? Dan blijft Chaturbate de onbetwiste leider. Dankzij de open community streamen hier dagelijks tienduizenden onafhankelijke amateurs direct vanuit hun slaapkamer.\n\n* **Voordelen:** Gigantische diversiteit, interactieve chats, Lovense speelgoedkoppelingen waarmee kijkers direct de actie bepalen.\n* **Ideaal voor:** Liefhebbers van ongedwongen, rauwe amateur-actie en levendige chatrooms.",
 			'author'  => 'Cam Expert Danny',
 			'time'    => '6 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1590650154751-121dbd82403b?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800&h=450',
 		),
 		array(
 			'title'   => 'Hoe Werken Live Cam Platforms? Een Blik Achter de Schermen',
 			'excerpt' => 'Van interactieve Lovense seksspeeltjes tot blockchain betalingen en private rooms. Leer alles over de techniek achter je favoriete cam-sites.',
-			'content' => "Veel mensen bezoeken cam-sites voor het entertainment, maar staan zelden stil bij de indrukwekkende technologie die deze platforms draaiende houdt. Vandaag de dag zijn cam-sites pioniers op het gebied van realtime streaming en internet-interactiviteit.\n\n### Realtime Telemetrie & Interactief Speelgoed\nEen van de grootste revoluties van de afgelopen jaren is de integratie van teledildonica (op afstand bestuurbare seksspeeltjes). Modellen dragen toys die gekoppeld zijn aan de servers van het platform via Bluetooth en WebSockets.\n\nWanneer een kijker een bepaald aantal 'tokens' tipt, stuurt de server direct een signaal naar het speelgoed van het model om te vibreren of te pulseren. Dit creëert een ongekende, directe feedback-loop tussen kijker en model.\n\n### Privé-kamers (Private Rooms) en Groepsshows\nHoe werkt de verdeling tussen gratis streams en betaalde kamers?\n1. **Public Show:** Het model streamt gratis voor iedereen. Ze probeert tips te verzamelen om specifieke doelen (de 'tip menu goals') te behalen.\n2. **Spy Show:** Gebruikers betalen een klein aantal tokens per minuut om stiekem mee te kijken naar een show die het model voor iemand anders uitvoert.\n3. **Private Show:** Een 1-op-1 chat waarin het model uitsluitend jouw instructies opvolgt. Dit is volledig discreet en op maat gemaakt.",
+			'content' => "Veel mensen bezoeken cam-sites voor het entertainment, maar staan zelden stil bij de indrukwekkende technologie die deze platforms draaiende houdt. Vandaag de dag zijn cam-sites pioniers op het gebied van realtime streaming en internet-interactiviteit.\n\n### Realtime Telemetrie & Interactief Speelgoed\nEen van de grootste revoluties van de afgelopen jaren is de integratie van teledildonica (op afstand bestuurbare seksspeeltjes). Modellen dragen toys die gekoppeld zijn aan de servers van het platform via Bluetooth en WebSockets.\n\nWanneer een kijker een bepaald aantal 'tokens' tipt, stuurt de server direct een signaal naar het speelgoed van het model om te vibreren of te pulseren. This creëert een ongekende, directe feedback-loop tussen kijker en model.\n\n### Privé-kamers (Private Rooms) en Groepsshows\nHoe werkt de verdeling tussen gratis streams en betaalde kamers?\n1. **Public Show:** Het model streamt gratis voor iedereen. Ze probeert tips te verzamelen om specifieke doelen (de 'tip menu goals') te behalen.\n2. **Spy Show:** Gebruikers betalen een klein aantal tokens per minuut om stiekem mee te kijken naar een show die het model voor iemand anders uitvoert.\n3. **Private Show:** Een 1-op-1 chat waarin het model uitsluitend jouw instructies opvolgt. Dit is volledig discreet en op maat gemaakt.",
 			'author'  => 'Tech Analyst Bram',
 			'time'    => '4 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1626379616459-b2ce1d9decbc?auto=format&fit=crop&q=80&w=800&h=450',
 		),
 		array(
 			'title'   => 'Top 10 Populairste Cam Modellen van dit Seizoen (2026)',
@@ -213,7 +213,7 @@ function bangacams_import_demo_content() {
 			'content' => "Met tienduizenden actieve performers kan het lastig zijn om de echte pareltjes te vinden. Dit seizoen zien we een opvallende verschuiving naar ongedwongen amateurs en creatieve koppels die de kijkcijferlijsten domineren. Hier is onze top-selectie van modellen die je absoluut niet mag missen.\n\n### De Stijgende Sterren van dit Seizoen\n\n### 1. Luna Cherry (Live Girls)\nLuna is de onbetwiste favoriet op JerkMate. Met haar natuurlijke charme en uiterst actieve reactie op chatberichten heeft ze in korte tijd een gigantische fanbase opgebouwd. Ze is bijna dagelijks online en staat bekend om haar vrolijke energie.\n\n### 2. Sophia & Liam (Couples Koepel)\nEchte stelletjes zijn populairder dan ooit. Sophia en Liam stralen een pure chemie uit die je zelden vindt bij gescripte studio-shows. Hun interactieve massage- en passieshows zijn van absolute topklasse op LiveJasmin.\n\n### 3. Amateur Chloe (Spontane Amateurs)\nChloe bewijst dat je geen dure studio-verlichting nodig hebt om te fascineren. Haar streams vanuit haar knusse slaapkamer zijn puur, rauw en ontzettend interactief. Ze is een absolute aanrader op Chaturbate voor wie houdt van authentiek.",
 			'author'  => 'Trends Redacteur Tess',
 			'time'    => '5 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=800&h=450',
 		)
 	);
 
@@ -236,8 +236,8 @@ function bangacams_import_demo_content() {
 	$platforms_data = array(
 		array(
 			'title'        => 'Stripchat',
-			'desc'         => 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
-			'logo'         => 'https://stripchat.com/apple-touch-icon.png',
+			'desc'         => 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties and een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
+			'logo'         => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150&h=150',
 			'rating'       => 5.0,
 			'aff_url'      => 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
 			'features'     => "Lovense Toy interactie op topniveau\nPrachtige 4K en HD streams op mobiel en desktop\nVirtual Reality (VR) camshows\nActieve community en tip-games",
@@ -249,7 +249,7 @@ function bangacams_import_demo_content() {
 		array(
 			'title'        => 'Chaturbate',
 			'desc'         => 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
-			'logo'         => 'https://chaturbate.com/apple-touch-icon.png',
+			'logo'         => 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150',
 			'rating'       => 4.9,
 			'aff_url'      => 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
 			'features'     => "Duizenden gratis streams\nInteractieve Lovense toys integratie\nActieve chat community\nEnorme variatie in genres",
@@ -564,13 +564,17 @@ add_action( 'after_switch_theme', 'bangacams_import_demo_content' );
 /**
  * Filter search to include custom fields if desired, or make standard queries easier
  */
+/**
+ * Filter search to include custom fields if desired, or make standard queries easier
+ * Updated to be extremely robust so that models without meta keys do not disappear from listings!
+ */
 function bangacams_modify_archive_queries( $query ) {
 	if ( is_admin() || ! $query->is_main_query() ) {
 		return;
 	}
 
 	// For model archive: handle sorting and filtering
-	if ( is_post_type_archive( 'cam_model' ) || is_tax( array( 'model_category', 'model_tag' ) ) ) {
+	if ( is_post_type_archive( 'cam_model' ) || is_tax( array( 'model_category', 'model_tag' ) ) || $query->get( 'post_type' ) === 'cam_model' ) {
 		$query->set( 'posts_per_page', 12 );
 
 		// Category filtering via query params
@@ -584,32 +588,97 @@ function bangacams_modify_archive_queries( $query ) {
 			) );
 		}
 
-		// Sorting via query params
-		if ( isset( $_GET['sort_by'] ) ) {
-			$sort_by = sanitize_text_field( $_GET['sort_by'] );
-			if ( $sort_by === 'rating' ) {
-				$query->set( 'meta_key', 'model_rating' );
-				$query->set( 'orderby', 'meta_value_num' );
-				$query->set( 'order', 'DESC' );
-			} elseif ( $sort_by === 'viewers' ) {
-				$query->set( 'meta_key', 'model_viewers' );
-				$query->set( 'orderby', 'meta_value_num' );
-				$query->set( 'order', 'DESC' );
-			} else {
-				// Default or popularity
-				$query->set( 'meta_key', 'model_popularity' );
-				$query->set( 'orderby', 'meta_value_num' );
-				$query->set( 'order', 'DESC' );
-			}
+		// Sorting via query params with EXISTS / NOT EXISTS fallback to prevent models disappearing
+		$sort_by = isset( $_GET['sort_by'] ) ? sanitize_text_field( $_GET['sort_by'] ) : 'popularity';
+
+		if ( $sort_by === 'rating' ) {
+			$query->set( 'meta_query', array(
+				'relation' => 'OR',
+				'rating_clause' => array(
+					'key'     => 'model_rating',
+					'type'    => 'NUMERIC',
+					'compare' => 'EXISTS',
+				),
+				'no_rating_clause' => array(
+					'key'     => 'model_rating',
+					'compare' => 'NOT EXISTS',
+				),
+			) );
+			$query->set( 'orderby', array(
+				'rating_clause' => 'DESC',
+				'date'          => 'DESC',
+			) );
+		} elseif ( $sort_by === 'viewers' ) {
+			$query->set( 'meta_query', array(
+				'relation' => 'OR',
+				'viewers_clause' => array(
+					'key'     => 'model_viewers',
+					'type'    => 'NUMERIC',
+					'compare' => 'EXISTS',
+				),
+				'no_viewers_clause' => array(
+					'key'     => 'model_viewers',
+					'compare' => 'NOT EXISTS',
+				),
+			) );
+			$query->set( 'orderby', array(
+				'viewers_clause' => 'DESC',
+				'date'           => 'DESC',
+			) );
 		} else {
-			// Default sort by popularity
-			$query->set( 'meta_key', 'model_popularity' );
-			$query->set( 'orderby', 'meta_value_num' );
-			$query->set( 'order', 'DESC' );
+			// popularity
+			$query->set( 'meta_query', array(
+				'relation' => 'OR',
+				'pop_clause' => array(
+					'key'     => 'model_popularity',
+					'type'    => 'NUMERIC',
+					'compare' => 'EXISTS',
+				),
+				'no_pop_clause' => array(
+					'key'     => 'model_popularity',
+					'compare' => 'NOT EXISTS',
+				),
+			) );
+			$query->set( 'orderby', array(
+				'pop_clause' => 'DESC',
+				'date'       => 'DESC',
+			) );
 		}
 	}
 }
 add_action( 'pre_get_posts', 'bangacams_modify_archive_queries' );
+
+/**
+ * 🔞 AUTO-POPULATE DEFAULT METADATA FOR NEWLY CREATED OR IMPORTED MODELS
+ */
+function bangacams_set_default_model_meta( $post_id, $post, $update ) {
+	// Only run on the model post type
+	if ( $post->post_type !== 'cam_model' ) {
+		return;
+	}
+
+	// Setup fallback meta values for imported models to ensure they have popularity/ratings/images
+	$defaults = array(
+		'model_age'           => '21',
+		'model_country'       => 'Nederland',
+		'model_languages'     => 'Nederlands, Engels',
+		'model_platform'      => 'Stripchat',
+		'model_affiliate_url' => 'https://go.stripcash.com/link?userId=dannyderooij',
+		'model_rating'        => '4.5',
+		'model_is_online'     => 'yes',
+		'model_viewers'       => '1200',
+		'model_popularity'    => '1200',
+		'model_image_url'     => 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=350&h=450',
+	);
+
+	foreach ( $defaults as $key => $default_val ) {
+		$existing = get_post_meta( $post_id, $key, true );
+		if ( $existing === '' || $existing === false ) {
+			update_post_meta( $post_id, $key, $default_val );
+		}
+	}
+}
+add_action( 'wp_insert_post', 'bangacams_set_default_model_meta', 10, 3 );
 
 /**
  * 🔞 FORCE IMPORT STRIPCASH IF MISSING FROM DATABASE
