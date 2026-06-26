@@ -336,7 +336,7 @@ export default function App() {
                 <span className="text-xs font-black tracking-widest text-bordeaux-400 uppercase">WordPress Theme Compiled</span>
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
               </div>
-              <p class="text-xs text-zinc-400 font-semibold mt-0.5">
+              <p className="text-xs text-zinc-400 font-semibold mt-0.5">
                 BangaCams theme package has been generated successfully!
               </p>
             </div>
@@ -730,7 +730,7 @@ export default function App() {
                             <div className="rounded-lg bg-bordeaux-500/10 p-1.5 text-bordeaux-500 border border-bordeaux-500/20">
                               <Flame className="h-5.5 w-5.5 text-bordeaux-500" />
                             </div>
-                            <h2 class="font-display text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+                            <h2 className="font-display text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
                               Trending Now
                             </h2>
                           </div>
@@ -965,7 +965,7 @@ export default function App() {
                     >
                       <div className="text-center mb-12">
                         <h1 className="font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-                          Beste Live Cam <span class="bg-gradient-to-r from-bordeaux-500 to-bordeaux-300 bg-clip-text text-transparent">Platforms</span> 2026
+                          Beste Live Cam <span className="bg-gradient-to-r from-bordeaux-500 to-bordeaux-300 bg-clip-text text-transparent">Platforms</span> 2026
                         </h1>
                         <p className="mx-auto mt-4 max-w-2xl text-sm text-zinc-400 font-light font-sans">
                           Wij vergelijken de meest betrouwbare en veilige cam platforms van dit moment. Onze reviews zijn gebaseerd op camera-kwaliteit, model-diversiteit en privacy.

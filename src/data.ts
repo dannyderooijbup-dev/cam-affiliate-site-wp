@@ -2,10 +2,36 @@ import { CamModel, CamPlatform, BlogArticle } from './types';
 
 export const MOCK_PLATFORMS: CamPlatform[] = [
   {
+    id: 'stripchat',
+    name: 'Stripchat',
+    logo: 'https://stripchat.com/apple-touch-icon.png',
+    rating: 5.0,
+    affiliate_url: 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
+    description: 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
+    features: ['Lovense Toy interactie op topniveau', 'Prachtige 4K en HD streams', 'Virtual Reality (VR) camshows', 'Gigantisch aantal live amateur en top performers'],
+    pros: ['Uiterst moderne en snelle videospeler', 'Enorm hoge model-diversiteit uit alle werelddelen', 'Veilig en anoniem registreren'],
+    cons: ['VIP-kamers vereisen tokens', 'De chatrooms kunnen erg druk en levendig zijn'],
+    signupBonus: 'Ontvang direct gratis tokens na registratie via onze partnerlink!',
+    category: 'Amateur Cams'
+  },
+  {
+    id: 'chaturbate',
+    name: 'Chaturbate',
+    logo: 'https://chaturbate.com/apple-touch-icon.png',
+    rating: 4.9,
+    affiliate_url: 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
+    description: 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
+    features: ['Duizenden gratis streams', 'Interactieve Lovense toys integratie', 'Actieve chat community', 'Enorme variatie in genres'],
+    pros: ['Vrijwel alles is gratis te bekijken', 'Enorme amateur community', 'Zeer interactief met tip-goals'],
+    cons: ['Veel advertenties en pop-ups', 'Kwaliteit van streams varieert sterk'],
+    signupBonus: 'Maak een gratis account aan en chat direct live mee!',
+    category: 'Free Cams'
+  },
+  {
     id: 'jerkmate',
     name: 'JerkMate',
     logo: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.9,
+    rating: 4.6,
     affiliate_url: 'https://external.directlink.com/aff/jerkmate?subid=aistudio',
     description: 'JerkMate is een van de populairste cam-portals ter wereld. Het platform koppelt je direct aan de best passende modellen op basis van je persoonlijke voorkeuren via een interactief keuzesysteem.',
     features: ['Persoonlijke matching', 'HD Video streaming', 'Grote diversiteit aan modellen', 'Interactieve speelgoedkoppeling'],
@@ -18,7 +44,7 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
     id: 'livejasmin',
     name: 'LiveJasmin',
     logo: 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.8,
+    rating: 4.5,
     affiliate_url: 'https://external.directlink.com/aff/livejasmin?subid=aistudio',
     description: 'LiveJasmin staat bekend als de meest luxueuze en professionele webcam-site ter wereld. Ze focussen sterk op high-definition streams, discrete interactie en getrainde topmodellen.',
     features: ['Ultra-HD 4K camera-kwaliteit', '100% discrete betalingen', 'Exclusieve VIP privé-shows', 'Meertalige modellen'],
@@ -28,55 +54,16 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
     category: 'Premium Shows'
   },
   {
-    id: 'chaturbate',
-    name: 'Chaturbate',
-    logo: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.7,
-    affiliate_url: 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
-    description: 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
-    features: ['Duizenden gratis streams', 'Interactieve Lovense toys integratie', 'Actieve chat community', 'Enorme variatie in genres'],
-    pros: ['Vrijwel alles is gratis te bekijken', 'Enorme amateur community', 'Zeer interactief met tip-goals'],
-    cons: ['Veel advertenties en pop-ups', 'Kwaliteit van streams varieert sterk'],
-    signupBonus: 'Maak een gratis account aan en chat direct live mee!',
-    category: 'Free Cams'
-  },
-  {
     id: 'camsoda',
     name: 'CamSoda',
     logo: 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.6,
+    rating: 4.4,
     affiliate_url: 'https://external.directlink.com/aff/camsoda?subid=aistudio',
     description: 'CamSoda is een innovatief cam-platform dat bekend staat om technologische snufjes zoals VR-streams, interactieve toys en unieke evenementen met bekende sterren.',
     features: ['Virtual Reality (VR) ondersteuning', 'Social media integraties', 'Bitcoin & Crypto betalingen', 'Exclusieve fan-clubs'],
     pros: ['Technologisch vooruitstrevend', 'Geweldige mobiele app-ervaring', 'Leuke gamification elementen'],
     cons: ['VR-bril vereist voor VR-optie', 'Soms overweldigend qua interface'],
     signupBonus: 'Ontvang direct 20 gratis tokens bij e-mailverificatie!',
-    category: 'Amateur Cams'
-  },
-  {
-    id: 'stripcash',
-    name: 'Stripcash (Cam4 Network)',
-    logo: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.8,
-    affiliate_url: 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
-    description: 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
-    features: ['Echt amateur webcam netwerk (Cam4)', 'Volledige Lovense toy integratie', 'Wereldwijd bereik met miljoenen actieve leden', 'Snel ladende live HD-streams'],
-    pros: ['Enorm hoge model-diversiteit uit alle werelddelen', 'Zeer betrouwbaar en gevestigd merk', 'Veel gratis openbare streams beschikbaar'],
-    cons: ['Sommige streams hebben lagere resoluties door amateur-webcams', 'Chatrooms kunnen erg druk en levendig zijn'],
-    signupBonus: 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
-    category: 'Amateur Cams'
-  },
-  {
-    id: 'stripchat',
-    name: 'Stripchat',
-    logo: 'https://images.unsplash.com/photo-1598128558393-70ff21433be0?auto=format&fit=crop&q=80&w=150&h=150',
-    rating: 4.9,
-    affiliate_url: 'https://go.stripcash.com/link?userId=dannyderooij',
-    description: 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
-    features: ['Lovense Toy interactie op topniveau', 'Prachtige 4K en HD streams', 'Virtual Reality (VR) camshows', 'Gigantisch aantal live amateur en top performers'],
-    pros: ['Uiterst moderne en snelle videospeler', 'Enorm hoge model-diversiteit uit alle werelddelen', 'Veilig en anoniem registreren'],
-    cons: ['VIP-kamers vereisen tokens', 'De chatrooms kunnen erg druk en levendig zijn'],
-    signupBonus: 'Ontvang direct gratis tokens na registratie via onze partnerlink!',
     category: 'Amateur Cams'
   }
 ];
@@ -348,7 +335,7 @@ export const MOCK_BLOG_ARTICLES: BlogArticle[] = [
     publishedAt: '25 juni 2026',
     author: 'Cam Expert Danny',
     readTime: '6 min leestijd',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1590650154751-121dbd82403b?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Reviews', 'Gidsen', 'Top Platforms'],
     content: `Het landschap van live webcam entertainment is in 2026 innovatiever en populairder dan ooit. Met de opkomst van interactieve toys, Ultra-HD 4K streaming en geavanceerde matching-algoritmen is er een platform voor werkelijk elke voorkeur.
 
@@ -361,7 +348,7 @@ JerkMate heeft de markt veroverd met een unieke 'matching wizard'. In plaats van
 * **Ideaal voor:** Gebruikers die direct actie willen zonder urenlang te zoeken.
 
 ## 2. LiveJasmin: Ongekende Luxe en VIP Kwaliteit
-Voor wie op zoek is naar premium entertainment en absolute topmodellen, is LiveJasmin de gouden standaard. De nadruk ligt hier op discretie en extreem hoge videokwaliteit (vaak in 4K). De modellen zijn uiterst professioneel.
+Voor wie op zoek is naar premium entertainment en absolute topmodellen, is LiveJasmin de gouden standaard. De nadruk ligt hier op discretie en extreem hoge videokwaliteit (vaak in 4K). De worden uiterst professioneel aangestuurd.
 
 * **Voordelen:** Kristalhelder beeld en geluid, de meest discrete betaalmethoden, luxueuze uitstraling.
 * **Ideaal voor:** Liefhebbers van exclusieve VIP privé-shows en top-tier verleiding.
@@ -380,7 +367,7 @@ Wil je liever een informele, interactieve en grotendeels gratis ervaring? Dan bl
     publishedAt: '18 juni 2026',
     author: 'Tech Analyst Bram',
     readTime: '4 min leestijd',
-    image: 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Technologie', 'Achter De Schermen'],
     content: `Veel mensen bezoeken cam-sites voor het entertainment, maar staan zelden stil bij de indrukwekkende technologie die deze platforms draaiende houdt. Vandaag de dag zijn cam-sites pioniers op het gebied van realtime streaming en internet-interactiviteit.
 
@@ -403,14 +390,14 @@ Hoe werkt de verdeling tussen gratis streams en betaalde kamers?
     publishedAt: '10 juni 2026',
     author: 'Trends Redacteur Tess',
     readTime: '5 min leestijd',
-    image: 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Modellen', 'Trends', 'Aanbevolen'],
     content: `Met tienduizenden actieve performers kan het lastig zijn om de echte pareltjes te vinden. Dit seizoen zien we een opvallende verschuiving naar ongedwongen amateurs en creatieve koppels die de kijkcijferlijsten domineren. Hier is onze top-selectie van modellen die je absoluut niet mag missen.
 
 ## De Stijgende Sterren van dit Seizoen
 
 ### 1. Luna Cherry (Live Girls)
-Luna is de onbetwiste favoriet op JerkMate. Met haar natuurlijke charme en uiterst actieve reactie op chatberichten heeft ze in korte tijd een gigantische fanbase opgebouwd. Ze is bijna dagelijks online en staat bekend om haar vrolijke energie.
+Luna is de onbetwiste favoriet op JerkMate. Met haar natuurlijke charme en uiterst actieve reactie op chatberichten heeft ze in kurzer tijd een gigantische fanbase opgebouwd. Ze is bijna dagelijks online en staat bekend om haar vrolijke energie.
 
 ### 2. Sophia & Liam (Couples Koepel)
 Echte stelletjes zijn populairder dan ooit. Sophia en Liam stralen een pure chemie uit die je zelden vindt bij gescripte studio-shows. Hun interactieve massage- en passieshows zijn van absolute topklasse op LiveJasmin.

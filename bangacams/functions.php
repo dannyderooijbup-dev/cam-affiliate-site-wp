@@ -197,7 +197,7 @@ function bangacams_import_demo_content() {
 			'content' => "Het landschap van live webcam entertainment is in 2026 innovatiever en populairder dan ooit. Met de opkomst van interactieve toys, Ultra-HD 4K streaming en geavanceerde matching-algoritmen is er een platform voor werkelijk elke voorkeur.\n\nMaar welk platform sluit het beste aan bij jouw wensen en budget? In deze gids vergelijken we de absolute top-sites van dit jaar op basis van cruciale factoren zoals modelkwaliteit, videotechnologie, betrouwbaarheid en prijs.\n\n### 1. JerkMate: Het Beste voor Gepersonaliseerde Matches\nJerkMate heeft de markt veroverd met een unieke 'matching wizard'. In plaats van eindeloos scrollen door duizenden kamers, geef je vooraf je voorkeuren aan. Het platform koppelt je vervolgens direct aan modellen die perfect bij jouw smaak passen.\n\n* **Voordelen:** Razendsnelle matching, fantastische mobiele ervaring, zeer actieve community.\n* **Ideaal voor:** Gebruikers die direct actie willen zonder urenlang te zoeken.\n\n### 2. LiveJasmin: Ongekende Luxe en VIP Kwaliteit\nVoor wie op zoek is naar premium entertainment en absolute topmodellen, is LiveJasmin de gouden standaard. De nadruk ligt hier op discretie en extreem hoge videokwaliteit (vaak in 4K). De modellen zijn uiterst professioneel.\n\n* **Voordelen:** Kristalhelder beeld en geluid, de meest discrete betaalmethoden, luxueuze uitstraling.\n* **Ideaal voor:** Liefhebbers van exclusieve VIP privé-shows en top-tier verleiding.\n\n### 3. Chaturbate: De Koning van de Amateur Cams\nWil je liever een informele, interactieve en grotendeels gratis ervaring? Dan blijft Chaturbate de onbetwiste leider. Dankzij de open community streamen hier dagelijks tienduizenden onafhankelijke amateurs direct vanuit hun slaapkamer.\n\n* **Voordelen:** Gigantische diversiteit, interactieve chats, Lovense speelgoedkoppelingen waarmee kijkers direct de actie bepalen.\n* **Ideaal voor:** Liefhebbers van ongedwongen, rauwe amateur-actie en levendige chatrooms.",
 			'author'  => 'Cam Expert Danny',
 			'time'    => '6 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1590650154751-121dbd82403b?auto=format&fit=crop&q=80&w=800&h=450',
 		),
 		array(
 			'title'   => 'Hoe Werken Live Cam Platforms? Een Blik Achter de Schermen',
@@ -205,7 +205,7 @@ function bangacams_import_demo_content() {
 			'content' => "Veel mensen bezoeken cam-sites voor het entertainment, maar staan zelden stil bij de indrukwekkende technologie die deze platforms draaiende houdt. Vandaag de dag zijn cam-sites pioniers op het gebied van realtime streaming en internet-interactiviteit.\n\n### Realtime Telemetrie & Interactief Speelgoed\nEen van de grootste revoluties van de afgelopen jaren is de integratie van teledildonica (op afstand bestuurbare seksspeeltjes). Modellen dragen toys die gekoppeld zijn aan de servers van het platform via Bluetooth en WebSockets.\n\nWanneer een kijker een bepaald aantal 'tokens' tipt, stuurt de server direct een signaal naar het speelgoed van het model om te vibreren of te pulseren. Dit creëert een ongekende, directe feedback-loop tussen kijker en model.\n\n### Privé-kamers (Private Rooms) en Groepsshows\nHoe werkt de verdeling tussen gratis streams en betaalde kamers?\n1. **Public Show:** Het model streamt gratis voor iedereen. Ze probeert tips te verzamelen om specifieke doelen (de 'tip menu goals') te behalen.\n2. **Spy Show:** Gebruikers betalen een klein aantal tokens per minuut om stiekem mee te kijken naar een show die het model voor iemand anders uitvoert.\n3. **Private Show:** Een 1-op-1 chat waarin het model uitsluitend jouw instructies opvolgt. Dit is volledig discreet en op maat gemaakt.",
 			'author'  => 'Tech Analyst Bram',
 			'time'    => '4 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&q=80&w=800&h=450',
 		),
 		array(
 			'title'   => 'Top 10 Populairste Cam Modellen van dit Seizoen (2026)',
@@ -213,7 +213,7 @@ function bangacams_import_demo_content() {
 			'content' => "Met tienduizenden actieve performers kan het lastig zijn om de echte pareltjes te vinden. Dit seizoen zien we een opvallende verschuiving naar ongedwongen amateurs en creatieve koppels die de kijkcijferlijsten domineren. Hier is onze top-selectie van modellen die je absoluut niet mag missen.\n\n### De Stijgende Sterren van dit Seizoen\n\n### 1. Luna Cherry (Live Girls)\nLuna is de onbetwiste favoriet op JerkMate. Met haar natuurlijke charme en uiterst actieve reactie op chatberichten heeft ze in korte tijd een gigantische fanbase opgebouwd. Ze is bijna dagelijks online en staat bekend om haar vrolijke energie.\n\n### 2. Sophia & Liam (Couples Koepel)\nEchte stelletjes zijn populairder dan ooit. Sophia en Liam stralen een pure chemie uit die je zelden vindt bij gescripte studio-shows. Hun interactieve massage- en passieshows zijn van absolute topklasse op LiveJasmin.\n\n### 3. Amateur Chloe (Spontane Amateurs)\nChloe bewijst dat je geen dure studio-verlichting nodig hebt om te fascineren. Haar streams vanuit haar knusse slaapkamer zijn puur, rauw en ontzettend interactief. Ze is een absolute aanrader op Chaturbate voor wie houdt van authentiek.",
 			'author'  => 'Trends Redacteur Tess',
 			'time'    => '5 min leestijd',
-			'image'   => 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=800&h=450',
+			'image'   => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800&h=450',
 		)
 	);
 
@@ -235,10 +235,34 @@ function bangacams_import_demo_content() {
 	// 3. IMPORT PLATFORMS
 	$platforms_data = array(
 		array(
+			'title'        => 'Stripchat',
+			'desc'         => 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
+			'logo'         => 'https://stripchat.com/apple-touch-icon.png',
+			'rating'       => 5.0,
+			'aff_url'      => 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
+			'features'     => "Lovense Toy interactie op topniveau\nPrachtige 4K en HD streams op mobiel en desktop\nVirtual Reality (VR) camshows\nActieve community en tip-games",
+			'pros'         => "Uiterst moderne en snelle videospeler\nGroot aantal live meiden, koppels en trans performers\nVeilig en anoniem registreren",
+			'cons'         => "VIP-kamers kunnen snel veel tokens kosten\nDe chatrooms kunnen erg druk en levendig zijn",
+			'signup_bonus' => 'Ontvang direct gratis tokens na registratie via onze partnerlink!',
+			'category'     => 'Amateur Cams'
+		),
+		array(
+			'title'        => 'Chaturbate',
+			'desc'         => 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
+			'logo'         => 'https://chaturbate.com/apple-touch-icon.png',
+			'rating'       => 4.9,
+			'aff_url'      => 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
+			'features'     => "Duizenden gratis streams\nInteractieve Lovense toys integratie\nActieve chat community\nEnorme variatie in genres",
+			'pros'         => "Vrijwel alles is gratis te bekijken\nEnorme amateur community\nZeer interactief met tip-goals",
+			'cons'         => "Veel advertenties en pop-ups\nKwaliteit van streams varieert sterk",
+			'signup_bonus' => 'Maak een gratis account aan en chat direct live mee!',
+			'category'     => 'Free Cams'
+		),
+		array(
 			'title'        => 'JerkMate',
 			'desc'         => 'JerkMate is een van de populairste cam-portals ter wereld. Het platform koppelt je direct aan de best passende modellen op basis van je persoonlijke voorkeuren via een interactief keuzesysteem.',
 			'logo'         => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.9,
+			'rating'       => 4.6,
 			'aff_url'      => 'https://external.directlink.com/aff/jerkmate?subid=aistudio',
 			'features'     => "Persoonlijke matching\nHD Video streaming\nGrote diversiteit aan modellen\nInteractieve speelgoedkoppeling",
 			'pros'         => "Uiterst gebruiksvriendelijke interface\nVeel actieve live shows 24/7\nSnelle laadtijden op mobiel",
@@ -250,7 +274,7 @@ function bangacams_import_demo_content() {
 			'title'        => 'LiveJasmin',
 			'desc'         => 'LiveJasmin staat bekend als de meest luxueuze en professionele webcam-site ter wereld. Ze focussen sterk op high-definition streams, discrete interactie en getrainde topmodellen.',
 			'logo'         => 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.8,
+			'rating'       => 4.5,
 			'aff_url'      => 'https://external.directlink.com/aff/livejasmin?subid=aistudio',
 			'features'     => "Ultra-HD 4K camera-kwaliteit\n100% discrete betalingen\nExclusieve VIP privé-shows\nMeertalige modellen",
 			'pros'         => "Uitzonderlijk hoge video- en audiokwaliteit\nZeer professionele modellen\nUitstekende privacybescherming",
@@ -259,39 +283,15 @@ function bangacams_import_demo_content() {
 			'category'     => 'Premium Shows'
 		),
 		array(
-			'title'        => 'Chaturbate',
-			'desc'         => 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
-			'logo'         => 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.7,
-			'aff_url'      => 'https://external.directlink.com/aff/chaturbate?subid=aistudio',
-			'features'     => "Duizenden gratis streams\nInteractieve Lovense toys integratie\nActieve chat community\nEnorme variatie in genres",
-			'pros'         => "Vrijwel alles is gratis te bekijken\nEnorme amateur community\nZeer interactief met tip-goals",
-			'cons'         => "Veel advertenties en pop-ups\nKwaliteit van streams varieert sterk",
-			'signup_bonus' => 'Maak een gratis account aan en chat direct live mee!',
-			'category'     => 'Free Cams'
-		),
-		array(
 			'title'        => 'CamSoda',
 			'desc'         => 'CamSoda is een innovatief cam-platform dat bekend staat om technologische snufjes zoals VR-streams, interactieve toys en unieke evenementen met bekende sterren.',
 			'logo'         => 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.6,
+			'rating'       => 4.4,
 			'aff_url'      => 'https://external.directlink.com/aff/camsoda?subid=aistudio',
 			'features'     => "Virtual Reality (VR) ondersteuning\nSocial media integraties\nBitcoin & Crypto betalingen\nExclusieve fan-clubs",
 			'pros'         => "Technologisch vooruitstrevend\nGeweldige mobiele app-ervaring\nLeuke gamification elementen",
 			'cons'         => "VR-bril vereist voor VR-optie\nSoms overweldigend qua interface",
 			'signup_bonus' => 'Ontvang direct 20 gratis tokens bij e-mailverificatie!',
-			'category'     => 'Amateur Cams'
-		),
-		array(
-			'title'        => 'Stripcash (Cam4 Network)',
-			'desc'         => 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
-			'logo'         => 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.8,
-			'aff_url'      => 'https://external.directlink.com/aff/stripcash?subid=bangacams',
-			'features'     => "Echt amateur webcam netwerk (Cam4)\nVolledige Lovense toy integratie\nWereldwijd bereik met miljoenen actieve leden\nSnel ladende live HD-streams",
-			'pros'         => "Enorm hoge model-diversiteit uit alle werelddelen\nZeer betrouwbaar en gevestigd merk\nVeel gratis openbare streams beschikbaar",
-			'cons'         => "Sommige streams hebben lagere resoluties door amateur-webcams\nChatrooms kunnen erg druk en levendig zijn",
-			'signup_bonus' => 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
 			'category'     => 'Amateur Cams'
 		)
 	);
@@ -619,28 +619,70 @@ function bangacams_check_missing_platforms() {
 		return;
 	}
 
-	// List of default platforms to check
+	// Clean up duplicate/unwanted platforms
+	$duplicate_titles = array('Stripcash', 'Stripcash (Cam4 Network)');
+	foreach ($duplicate_titles as $dup_title) {
+		$dup_post = get_page_by_title( $dup_title, OBJECT, 'cam_platform' );
+		if ( $dup_post ) {
+			wp_delete_post( $dup_post->ID, true ); // Force delete
+		}
+	}
+
+	// List of default platforms to check and keep updated
 	$platforms_to_check = array(
-		'Stripcash (Cam4 Network)' => array(
-			'desc'         => 'Stripcash is het officiële partnerprogramma van Cam4, een van de meest legendarische en bezochte amateur webcam-platforms ter wereld. Het herbergt miljoenen actieve shows en heeft een gigantisch bereik.',
-			'logo'         => 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.8,
-			'aff_url'      => 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
-			'features'     => "Echt amateur webcam netwerk (Cam4)\nVolledige Lovense toy integratie\nWereldwijd bereik met miljoenen active leden\nSnel ladende live HD-streams",
-			'pros'         => "Enorm hoge model-diversiteit uit alle werelddelen\nZeer betrouwbaar en gevestigd merk\nVeel gratis openbare streams beschikbaar",
-			'cons'         => "Sommige streams hebben lagere resoluties door amateur-webcams\nChatrooms kunnen erg druk en levendig zijn",
-			'signup_bonus' => 'Krijg gratis 50 tokens bij registratie via onze partnerlink!',
-			'category'     => 'Amateur Cams'
-		),
 		'Stripchat' => array(
-			'desc'         => 'Stripchat is een van de snelst groeiende en meest technologisch geavanceerde amateur webcam-platforms ter wereld. Het beschikt over VR-shows, Lovense-interactie en miljoenen actieve leden.',
-			'logo'         => 'https://images.unsplash.com/photo-1598128558393-70ff21433be0?auto=format&fit=crop&q=80&w=150&h=150',
-			'rating'       => 4.9,
-			'aff_url'      => 'https://go.stripcash.com/link?userId=dannyderooij',
+			'desc'         => 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
+			'logo'         => 'https://stripchat.com/apple-touch-icon.png',
+			'rating'       => 5.0,
+			'aff_url'      => 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
 			'features'     => "Lovense Toy interactie op topniveau\nPrachtige 4K en HD streams op mobiel en desktop\nVirtual Reality (VR) camshows\nActieve community en tip-games",
 			'pros'         => "Uiterst moderne en snelle videospeler\nGroot aantal live meiden, koppels en trans performers\nVeilig en anoniem registreren",
-			'cons'         => "VIP-kamers kunnen snel veel tokens kosten\nSommige shows zijn alleen toegankelijk voor levelers",
+			'cons'         => "VIP-kamers kunnen snel veel tokens kosten\nDe chatrooms kunnen erg druk en levendig zijn",
 			'signup_bonus' => 'Ontvang direct gratis tokens na registratie via onze partnerlink!',
+			'category'     => 'Amateur Cams'
+		),
+		'Chaturbate' => array(
+			'desc'         => 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
+			'logo'         => 'https://chaturbate.com/apple-touch-icon.png',
+			'rating'       => 4.9,
+			'aff_url'      => 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
+			'features'     => "Duizenden gratis streams\nInteractieve Lovense toys integratie\nActieve chat community\nEnorme variatie in genres",
+			'pros'         => "Vrijwel alles is gratis te bekijken\nEnorme amateur community\nZeer interactief met tip-goals",
+			'cons'         => "Veel advertenties en pop-ups\nKwaliteit van streams varieert sterk",
+			'signup_bonus' => 'Maak een gratis account aan en chat direct live mee!',
+			'category'     => 'Free Cams'
+		),
+		'JerkMate' => array(
+			'desc'         => 'JerkMate is een van de populairste cam-portals ter wereld. Het platform koppelt je direct aan de best passende modellen op basis van je persoonlijke voorkeuren via een interactief keuzesysteem.',
+			'logo'         => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=150&h=150',
+			'rating'       => 4.6,
+			'aff_url'      => 'https://external.directlink.com/aff/jerkmate?subid=aistudio',
+			'features'     => "Persoonlijke matching\nHD Video streaming\nGrote diversiteit aan modellen\nInteractieve speelgoedkoppeling",
+			'pros'         => "Uiterst gebruiksvriendelijke interface\nVeel actieve live shows 24/7\nSnelle laadtijden op mobiel",
+			'cons'         => "Sommige premium functies vereisen tokens\nGeen gratis proefversie voor alle VIP kamers",
+			'signup_bonus' => 'Krijg direct 3 gratis credits bij aanmelding!',
+			'category'     => 'Premium Cams'
+		),
+		'LiveJasmin' => array(
+			'desc'         => 'LiveJasmin staat bekend als de meest luxueuze en professionele webcam-site ter wereld. Ze focussen sterk op high-definition streams, discrete interactie en getrainde topmodellen.',
+			'logo'         => 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=150&h=150',
+			'rating'       => 4.5,
+			'aff_url'      => 'https://external.directlink.com/aff/livejasmin?subid=aistudio',
+			'features'     => "Ultra-HD 4K camera-kwaliteit\n100% discrete betalingen\nExclusieve VIP privé-shows\nMeertalige modellen",
+			'pros'         => "Uitzonderlijk hoge video- en audiokwaliteit\nZeer professionele modellen\nUitstekende privacybescherming",
+			'cons'         => "Gemiddeld iets duurder per minuut\nMinder focus op gratis amateur-content",
+			'signup_bonus' => 'Meld je aan en ontvang €10 gratis speelgoed-tegoed!',
+			'category'     => 'Premium Shows'
+		),
+		'CamSoda' => array(
+			'desc'         => 'CamSoda is een innovatief cam-platform dat bekend staat om technologische snufjes zoals VR-streams, interactieve toys en unieke evenementen met bekende sterren.',
+			'logo'         => 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=150&h=150',
+			'rating'       => 4.4,
+			'aff_url'      => 'https://external.directlink.com/aff/camsoda?subid=aistudio',
+			'features'     => "Virtual Reality (VR) ondersteuning\nSocial media integraties\nBitcoin & Crypto betalingen\nExclusieve fan-clubs",
+			'pros'         => "Technologisch vooruitstrevend\nGeweldige mobiele app-ervaring\nLeuke gamification elementen",
+			'cons'         => "VR-bril vereist voor VR-optie\nSoms overweldigend qua interface",
+			'signup_bonus' => 'Ontvang direct 20 gratis tokens bij e-mailverificatie!',
 			'category'     => 'Amateur Cams'
 		)
 	);
@@ -655,16 +697,19 @@ function bangacams_check_missing_platforms() {
 				'post_status'  => 'publish',
 				'post_type'    => 'cam_platform'
 			) );
-			if ( $post_id && ! is_wp_error( $post_id ) ) {
-				update_post_meta( $post_id, 'platform_rating', $plat['rating'] );
-				update_post_meta( $post_id, 'platform_logo_url', $plat['logo'] );
-				update_post_meta( $post_id, 'platform_affiliate_url', $plat['aff_url'] );
-				update_post_meta( $post_id, 'platform_signup_bonus', $plat['signup_bonus'] );
-				update_post_meta( $post_id, 'platform_category', $plat['category'] );
-				update_post_meta( $post_id, 'platform_features', $plat['features'] );
-				update_post_meta( $post_id, 'platform_pros', $plat['pros'] );
-				update_post_meta( $post_id, 'platform_cons', $plat['cons'] );
-			}
+		} else {
+			$post_id = $existing->ID;
+		}
+
+		if ( $post_id && ! is_wp_error( $post_id ) ) {
+			update_post_meta( $post_id, 'platform_rating', $plat['rating'] );
+			update_post_meta( $post_id, 'platform_logo_url', $plat['logo'] );
+			update_post_meta( $post_id, 'platform_affiliate_url', $plat['aff_url'] );
+			update_post_meta( $post_id, 'platform_signup_bonus', $plat['signup_bonus'] );
+			update_post_meta( $post_id, 'platform_category', $plat['category'] );
+			update_post_meta( $post_id, 'platform_features', $plat['features'] );
+			update_post_meta( $post_id, 'platform_pros', $plat['pros'] );
+			update_post_meta( $post_id, 'platform_cons', $plat['cons'] );
 		}
 	}
 }
@@ -1058,12 +1103,12 @@ function bangacams_get_dynamic_aff_url( $username, $platform ) {
 		$campaign = get_option( 'bangacams_cb_campaign', 'EAlee' );
 		$track = get_option( 'bangacams_cb_room', 'dannyzo' );
 		return "https://chaturbate.com/in/?tour=" . urlencode($wm) . "&campaign=" . urlencode($campaign) . "&track=" . urlencode($track) . "&room=" . urlencode($username);
-	} elseif ( strtolower($platform) === 'stripchat' ) {
-		$userid = get_option( 'bangacams_stripchat_userid', 'dannyderooij' );
-		return "https://go.stripcash.com/link?userId=" . urlencode($userid) . "&room=" . urlencode($username);
 	} else {
-		// Stripcash (Cam4)
-		$userid = get_option( 'bangacams_stripcash_userid', '9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2' );
+		// Stripchat / Stripcash (Merged into Stripchat)
+		$userid = get_option( 'bangacams_stripchat_userid', '9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2' );
+		if ( empty($userid) ) {
+			$userid = get_option( 'bangacams_stripcash_userid', '9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2' );
+		}
 		return "https://go.mavrtracktor.com?userId=" . urlencode($userid) . "&room=" . urlencode($username);
 	}
 }
@@ -1152,11 +1197,16 @@ function bangacams_render_importer_page() {
 
 				if ( $existing_post ) {
 					$post_id = $existing_post->ID;
-					// Update online meta only
+					// Update ALL meta fields fully on every import run
+					update_post_meta( $post_id, 'model_age', $age );
+					update_post_meta( $post_id, 'model_country', $country );
+					update_post_meta( $post_id, 'model_languages', $langs );
+					update_post_meta( $post_id, 'model_platform', 'Chaturbate' );
 					update_post_meta( $post_id, 'model_is_online', 'yes' );
 					update_post_meta( $post_id, 'model_viewers', $viewers );
 					update_post_meta( $post_id, 'model_affiliate_url', $aff_link );
 					update_post_meta( $post_id, 'model_popularity', $viewers );
+					update_post_meta( $post_id, 'model_image_url', $img_url );
 					$imported_models[] = array( 'name' => $username, 'status' => 'Opgewaardeerd (Live)', 'platform' => 'Chaturbate' );
 				} else {
 					// Create new post
@@ -1272,10 +1322,16 @@ function bangacams_render_importer_page() {
 				
 				if ( $existing_post ) {
 					$post_id = $existing_post->ID;
+					// Update ALL meta fields fully on every import run
+					update_post_meta( $post_id, 'model_age', $age );
+					update_post_meta( $post_id, 'model_country', $country );
+					update_post_meta( $post_id, 'model_languages', $langs );
+					update_post_meta( $post_id, 'model_platform', 'Stripchat' );
 					update_post_meta( $post_id, 'model_is_online', 'yes' );
 					update_post_meta( $post_id, 'model_viewers', $viewers );
 					update_post_meta( $post_id, 'model_affiliate_url', $aff_link );
 					update_post_meta( $post_id, 'model_popularity', $viewers );
+					update_post_meta( $post_id, 'model_image_url', $img_url );
 					$imported_models[] = array( 'name' => $username, 'status' => 'Opgewaardeerd (Live)', 'platform' => 'Stripchat' );
 				} else {
 					$post_id = wp_insert_post( array(
@@ -1448,28 +1504,14 @@ function bangacams_render_importer_page() {
 					</div>
 
 					<div style="margin-bottom: 25px;">
-						<h3 style="color: #475569; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 15px; font-weight: bold; border-left: 3px solid #b91c1c; padding-left: 10px;">Stripcash (Cam4) Affiliate Parameters</h3>
+						<h3 style="color: #475569; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 15px; font-weight: bold; border-left: 3px solid #b91c1c; padding-left: 10px;">Stripchat / Stripcash Affiliate Parameters</h3>
 						
 						<table class="form-table">
 							<tr>
-								<th scope="row"><label for="bangacams_stripcash_userid">Stripcash User ID</label></th>
+								<th scope="row"><label for="bangacams_stripchat_userid">Stripchat/Stripcash User ID</label></th>
 								<td>
-									<input name="bangacams_stripcash_userid" type="text" id="bangacams_stripcash_userid" value="<?php echo esc_attr($stripcash_userid); ?>" class="large-text" />
-									<p class="description">Je complete unieke Stripcash User ID. Hiermee worden de bezoek- en cam-knoppen doorgelinkt via je eigen tracking URL.</p>
-								</td>
-							</tr>
-						</table>
-					</div>
-
-					<div style="margin-bottom: 25px;">
-						<h3 style="color: #475569; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 15px; font-weight: bold; border-left: 3px solid #b91c1c; padding-left: 10px;">Stripchat Affiliate Parameters</h3>
-						
-						<table class="form-table">
-							<tr>
-								<th scope="row"><label for="bangacams_stripchat_userid">Stripchat User ID / Username</label></th>
-								<td>
-									<input name="bangacams_stripchat_userid" type="text" id="bangacams_stripchat_userid" value="<?php echo esc_attr($stripchat_userid); ?>" class="large-text" />
-									<p class="description">Je complete unieke Stripchat/Stripcash Partner ID of affiliate-gebruikersnaam (bijv: <code>dannyderooij</code>) voor de links.</p>
+									<input name="bangacams_stripchat_userid" type="text" id="bangacams_stripchat_userid" value="<?php echo esc_attr(empty($stripchat_userid) || $stripchat_userid === 'dannyderooij' ? '9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2' : $stripchat_userid); ?>" class="large-text" />
+									<p class="description">Je complete unieke Stripchat/Stripcash User ID of Partner ID (bijv: <code>9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2</code>). De links worden opgebouwd als: <code>https://go.mavrtracktor.com?userId=[user_id]&amp;room=[model_name]</code>.</p>
 								</td>
 							</tr>
 						</table>
@@ -1493,7 +1535,6 @@ function bangacams_render_importer_page() {
 						<select name="import_platform" id="import_platform" style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #cbd5e1;">
 							<option value="Chaturbate">Chaturbate (Live API Feed)</option>
 							<option value="Stripchat">Stripchat (Live API &amp; Backup)</option>
-							<option value="Stripcash">Stripcash / Cam4 (Live Model List)</option>
 						</select>
 					</div>
 
