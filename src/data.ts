@@ -4,7 +4,7 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
   {
     id: 'stripchat',
     name: 'Stripchat',
-    logo: 'https://stripchat.com/apple-touch-icon.png',
+    logo: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=150&h=150',
     rating: 5.0,
     affiliate_url: 'https://go.mavrtracktor.com?userId=9f36d6bb3a6d8f68c7be616b155ceed95fcef32e4b3e209377544ac458b157a2',
     description: 'Stripchat is een van de snelst groeiende en meest geavanceerde amateur webcam-platforms ter wereld. Het platform beschikt over schitterende HD/4K-streams, VR-opties en een complete Lovense speelgoedkoppeling waarmee je de actie direct kunt besturen.',
@@ -17,7 +17,7 @@ export const MOCK_PLATFORMS: CamPlatform[] = [
   {
     id: 'chaturbate',
     name: 'Chaturbate',
-    logo: 'https://chaturbate.com/apple-touch-icon.png',
+    logo: 'https://images.unsplash.com/photo-1618005198143-d3667c402b83?auto=format&fit=crop&q=80&w=150&h=150',
     rating: 4.9,
     affiliate_url: 'https://chaturbate.com/in/?tour=LQps&campaign=EAlee&track=default&room=dannyzo',
     description: 'Chaturbate is de onbetwiste koning van de gratis amateur webcam-sites. Het platform is enorm populair vanwege het interactieve token-systeem en de gigantische community van onafhankelijke omroepers.',
@@ -335,7 +335,7 @@ export const MOCK_BLOG_ARTICLES: BlogArticle[] = [
     publishedAt: '25 juni 2026',
     author: 'Cam Expert Danny',
     readTime: '6 min leestijd',
-    image: 'https://images.unsplash.com/photo-1590650154751-121dbd82403b?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1594744803329-e58b31de215f?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Reviews', 'Gidsen', 'Top Platforms'],
     content: `Het landschap van live webcam entertainment is in 2026 innovatiever en populairder dan ooit. Met de opkomst van interactieve toys, Ultra-HD 4K streaming en geavanceerde matching-algoritmen is er een platform voor werkelijk elke voorkeur.
 
@@ -367,7 +367,7 @@ Wil je liever een informele, interactieve en grotendeels gratis ervaring? Dan bl
     publishedAt: '18 juni 2026',
     author: 'Tech Analyst Bram',
     readTime: '4 min leestijd',
-    image: 'https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Technologie', 'Achter De Schermen'],
     content: `Veel mensen bezoeken cam-sites voor het entertainment, maar staan zelden stil bij de indrukwekkende technologie die deze platforms draaiende houdt. Vandaag de dag zijn cam-sites pioniers op het gebied van realtime streaming en internet-interactiviteit.
 
@@ -390,7 +390,7 @@ Hoe werkt de verdeling tussen gratis streams en betaalde kamers?
     publishedAt: '10 juni 2026',
     author: 'Trends Redacteur Tess',
     readTime: '5 min leestijd',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800&h=450',
+    image: 'https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?auto=format&fit=crop&q=80&w=800&h=450',
     tags: ['Modellen', 'Trends', 'Aanbevolen'],
     content: `Met tienduizenden actieve performers kan het lastig zijn om de echte pareltjes te vinden. Dit seizoen zien we een opvallende verschuiving naar ongedwongen amateurs en creatieve koppels die de kijkcijferlijsten domineren. Hier is onze top-selectie van modellen die je absoluut niet mag missen.
 
